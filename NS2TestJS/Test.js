@@ -1355,7 +1355,7 @@ function beforeSubmit_SalesOrderApprovalValidatio() { // User event before submi
 		} else {
 			logger.error('Unexpected Error', error.toString());
 			return true;
-			//throw nlapiCreateError('99999', error.toString());
+			//throw nlapiCreateError('99999', error.toString());...
 		}
 	}
 }
